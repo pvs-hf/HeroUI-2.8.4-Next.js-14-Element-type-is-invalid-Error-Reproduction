@@ -11,7 +11,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <main>{children}</main>
+          <main className="p-4 flex justify-center items-center">
+            {children}
+          </main>
         </Providers>
       </body>
     </html>
